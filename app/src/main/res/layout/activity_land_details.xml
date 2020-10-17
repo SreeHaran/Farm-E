@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/images_land"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            tools:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/location_land"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="32sp"
+            tools:text="Coimbatore, India" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="24sp"
+            tools:text="7000 rupees /month" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingRight="4dp"
+                android:text="Land Owner: "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/owner_land"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingLeft="8dp"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                tools:text="Subash Sakthivel" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/land_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            tools:text="7A, Place Holder street No.1,\nGandhipuram,\nCoimbatore - 641001" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Notes by Owner: "
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="16sp"
+            tools:text="1) This is land will only be given for agriculture\n2) Don't negotiate the price, it is fixed" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Contact the owner" />
+    </LinearLayout>
+</ScrollView>
