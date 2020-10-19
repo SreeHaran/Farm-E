@@ -81,6 +81,7 @@
             tools:text="1) This is land will only be given for agriculture\n2) Don't negotiate the price, it is fixed" />
 
         <Button
+            android:id="@+id/contact_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
